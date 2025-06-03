@@ -23,7 +23,7 @@ The $W/L$ for each transistor turns out to be:
 - $(W/L)_6 = 8.7 \implies L=900nm ,W=8000nm$
 - $(W/L)_7 = 1.74 \implies L=900nm ,W=1600nm$
 
-  We can calculate the $g_m$ of each transistor with &g_m=\frac{2I}{V_ov}$.
+  We can calculate the $g_m$ of each transistor with $g_m=\frac{2I}{V_ov}$.
 
 The $L$ for some transistors are more to increase the $r_o$ and gain of the system. These values was taken from simulation in LtSpice. With these parameters we get first stage gain $40db$ and overall gain after second stage $75db$. Power consumption $P = (\text{total I though all branhes}) \times V_{dd} = 53\mu W$. 
 
